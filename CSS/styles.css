@@ -9,7 +9,8 @@
 
 .barra_navegacion {
   
-  background-color: #fff;
+  background: rgb(228,73,155);
+  background: radial-gradient(circle, rgba(228,73,155,0.5046393557422969) -4%, rgba(254,219,240,1) 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;

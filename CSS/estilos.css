@@ -7,7 +7,8 @@
   box-sizing: border-box; }
 
 header nav .barra_navegacion {
-  background-color: #fff;
+  background: #e4499b;
+  background: radial-gradient(circle, rgba(228, 73, 155, 0.504639) -4%, #fedbf0 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;

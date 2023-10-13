@@ -1,0 +1,56 @@
+header{
+    nav{
+        .barra_navegacion{
+            background: rgb(228,73,155);
+            background: radial-gradient(circle, rgba(228,73,155,0.5046393557422969) -4%, rgba(254,219,240,1) 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+            .logo{
+                display: flex;
+                align-items: center;
+                height: 70px;
+            }
+            ul{
+                margin: 0px 15px;
+                list-style: none;
+                display: flex;
+                justify-content: end;
+                li{
+                    a{
+                        display: block;
+                        padding: 10px 17px;
+                        text-decoration: none;
+                        color: $color-principal;
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 20px;
+                        justify-content: end;
+                    }
+                }
+            }
+
+        }
+    }
+    .portada{
+        height: 550px;
+        background-image: url(../Multimedia/img/portada5.png);
+        background-size: cover;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 50px; 
+        div{
+            h1{
+                font-size: 70px;
+                text-align: center;
+                font-family: "Montez", cursive;
+                color: black;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}

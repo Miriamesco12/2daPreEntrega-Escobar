@@ -1,0 +1,130 @@
+main{
+    background-color: #ffeaf0;
+    section{
+        .tarjetas{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            div{
+                width: 230px;
+                height: 280px;
+                margin: 10px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 15px;
+                img{
+                    width: 200px;
+                    border-radius: 5px;
+                }
+                h4{
+                    text-align: center;
+                }
+                button{
+                    background-color: #f88eae;
+                    padding: 5px 10px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #f5bccd;
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    .titulo_pag{
+        text-align: center;
+        padding: 15px;
+    }
+    section{
+    .titulo2{
+        padding: 15px;
+        font-size: 25px;
+    }
+    .tarjetas_accesorios{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 5px;
+        div{
+            width: 250px;
+            height: 360px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            img{
+                width: 240px;
+                height: 230px;
+                border-radius: 8px;
+            }
+            button{
+                width: 70px;
+                height: 20px;
+                margin: 5px;
+                font-size: 12px;
+                background-color: #f88eae;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                &:hover{
+                    background-color: #f5adc3;
+                }
+            }
+        }
+        .producto3{
+            img{
+                width: 240px;
+            }
+        }
+    }
+    }
+}
+main{
+    .formulario{
+        font-size: 18px;
+        background-color: rgb(245, 190, 250);
+        margin: 30px auto;
+        padding: 30px;
+        display: grid;
+        row-gap: 10px;
+        .dato{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px; 
+        }
+        .dato_NyA{
+            input{
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid white;
+                &:focus{
+                    border-bottom: 2px solid white;
+                }
+            }
+        }
+        .dato_terminos{
+            button{
+            padding: 10px 15px;
+            font-size: 20px;
+            border: none;
+            border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+main{
+    .nosotros{
+        text-align: center;
+        padding: 15px;
+    }
+}
+main{
+    .comprar{
+        text-align:left;
+        padding: 15px;
+    }
+}
